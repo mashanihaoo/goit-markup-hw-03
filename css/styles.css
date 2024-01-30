@@ -65,7 +65,7 @@ img {
 .logo  {
     color: #4D5AE5;
     line-height: 1.17;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
@@ -79,7 +79,7 @@ img {
 .logo .logo-studio {
     color: #2E2F42;
     line-height: 1.17;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
@@ -89,7 +89,7 @@ img {
 .logo-footer{
     color: #F4F4FD;
     line-height: 1.17;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
@@ -316,7 +316,7 @@ img {
 
 
 .portfolio-list-item{
-    width: ((100% - 48px) / 3);
+    width: ((100% - 48px)/3);
 }
 
 
@@ -360,12 +360,11 @@ img {
 .logo-in-footer {
     color: #4D5AE5;
     line-height: 1.17;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
     margin-bottom: 16px;
     display: inline-block;
 }
