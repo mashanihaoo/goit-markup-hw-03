@@ -294,13 +294,19 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
  }
 
 .portfolio-section{
     display: flex;
     align-items:center;
     background-color: #FFFFFF;
+    padding: 120px 0;
 }
+.portfolio-list-item{
+    width: calc(100% - 6 * 24px / 6);
+}
+    
 
  .tool-title {
     font-weight: 500;
