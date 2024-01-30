@@ -211,9 +211,12 @@ img {
 }
 .benefits-list {
     display: flex;
-    gap: row;
+    gap: 24px;
 }
 
+.benefits-list-item{
+    calc((100% - 72px) / 4);
+}
 .benefits-list .benefit-name {
     color: #2E2F42;
     font-size: 20px;
