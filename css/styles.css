@@ -39,6 +39,13 @@ img {
     width: 1158px;
  }
 
+.container-header{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1158px;
+    display: flex;
+}
+
 .header-nav{
     display: flex;
     align-items: center;
