@@ -26,7 +26,7 @@ img {
 }
 
 .container {
-    max-width: ;
+    max-width: 100%
     margin: 0 auto;
     padding: 0 32px;
 }
@@ -40,7 +40,7 @@ img {
 .container{
     display: flex;
     flex-direction: row;
-    width: 1158px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 15px;
  }
@@ -153,6 +153,7 @@ img {
 
 .hero-section  {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .main-title {
@@ -163,6 +164,7 @@ img {
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .order-button {
@@ -174,6 +176,13 @@ img {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.04em;
+    display: block;
+    padding:16px 32px 16px 32px;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    gap: 10px;
+    border: none;
 }
 
 .order-button:hover,
