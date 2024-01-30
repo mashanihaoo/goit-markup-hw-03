@@ -203,6 +203,7 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 .benefits-section{
     padding: 120px 0;
@@ -210,10 +211,11 @@ img {
 .benefits-list {
     display: flex;
     gap: 24px;
+
 }
 
 .benefits-list-item{
-    calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .benefits-list .benefit-name {
     color: #2E2F42;
