@@ -19,11 +19,33 @@ ul {
     padding-left: 0;
 }
 
-*img {
+img {
     display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: ;
+    margin: 0 auto;
+    padding: 0 32px;
 }
 
 /* header*/
+
+.header{
+
+}
+
+.container{
+
+}
+
+.header-inner{
+
+}
+
+
 .logo  {
     color: #4D5AE5;
     line-height: 1.17;
@@ -57,13 +79,16 @@ ul {
 }
 
 
-.nav-list .nav-link{
+.nav-list .nav-link {
     color: #2E2F42;
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
 }
+
+
+
 
 
 
