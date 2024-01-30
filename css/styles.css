@@ -285,6 +285,13 @@ img {
     text-align: center;
 } 
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
+}
 
 .portfolio-title{
     font-weight: 700;
