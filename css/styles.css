@@ -206,6 +206,9 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.benefits-section{
+    padding: 120px 0;
+}
 .benefits-list {
     display: flex;
     gap: row;
@@ -228,7 +231,6 @@ img {
 
 .team-section {
     background-color:#F4F4FD;
-    padding: 120px 0;
 }
 
 .team-title {
