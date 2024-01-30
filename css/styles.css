@@ -191,8 +191,7 @@ img {
 }
 
 /*benefits-section*/
-
-.visually-hidden {
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -203,8 +202,8 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px;
 }
+
 .benefits-section{
     padding: 120px 0;
 }
@@ -214,15 +213,18 @@ img {
 
 }
 
-.benefits-list-item{
+.benefits-list .benefits-list-item{
     width: calc((100% - 72px) / 4);
+
 }
+
 .benefits-list .benefit-name {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .benefit-description {
