@@ -313,9 +313,11 @@ img {
     padding: 120px 0;
 }
 
-.portfolio-list-item{
-    width: calc((1158 - 48px) / 3);
-}
+
+
+.portfolio-list{
+    width: calc(100% - 48px / 3);
+    }
     
 
  .tool-title {
