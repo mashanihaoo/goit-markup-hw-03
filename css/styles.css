@@ -313,7 +313,7 @@ img {
     padding: 120px 0;
 }
 
-.portfolio-list .portfolio-list-item{
+.portfolio-list-item{
     width: calc((100% - 48px) / 3);
 }
     
@@ -354,6 +354,7 @@ img {
 }
 
 .logo-in-footer {
+    display: inline-block;
     color: #4D5AE5;
     line-height: 1.17;
     font-family: 'Raleway', sans-serif;
@@ -362,7 +363,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    display: inline-block;
     margin-bottom: 16px;
 }
 
