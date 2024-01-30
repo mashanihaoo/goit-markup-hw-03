@@ -316,8 +316,10 @@ img {
 
 
 .portfolio-list{
-    width: calc(100% - 48px / 3);
-    }
+    width: ((100% - 48px) / 3);
+}
+
+
     
 
  .tool-title {
@@ -356,7 +358,6 @@ img {
 }
 
 .logo-in-footer {
-    display: inline-block;
     color: #4D5AE5;
     line-height: 1.17;
     font-family: 'Raleway', sans-serif;
@@ -366,8 +367,6 @@ img {
     text-transform: uppercase;
     margin-right: 76px;
     margin-bottom: 16px;
-}
-
-.logo-in-footer .logo-footer {
     display: inline-block;
 }
+
