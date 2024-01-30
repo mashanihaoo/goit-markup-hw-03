@@ -34,14 +34,22 @@ img {
 /* header*/
 
 .header{
-
+   
 }
 
 .container{
-
+    display: flex;
+    width: 1158px;
 }
 
 .header-inner{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-socials {
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -209,11 +217,11 @@ img {
 }
 
 .team-list .person-name{
-color: #2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .team-list .persons-role{
@@ -221,7 +229,7 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}zzZZz  
+} 
 
 
 .portfolio-title{
@@ -256,9 +264,6 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
 }
 
-.portfolio-section{
-    background-color: #FFFFFF;
-}
 
 .footer-section{
     background-color:#2e2f42;
