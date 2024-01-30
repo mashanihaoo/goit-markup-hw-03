@@ -236,6 +236,7 @@ img {
 
 .team-section {
     background-color:#F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -246,11 +247,21 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
     
 .team-list{
     display: flex;
-    gap: row;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.person{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.person-description-container{
+    padding: 32px 0;
 }
 .team-list .person{
     background-color: #FFFFFF;
@@ -262,6 +273,8 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-list .persons-role{
@@ -269,6 +282,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 } 
 
 
