@@ -43,6 +43,7 @@ img {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+    width: 1158px;
  }
 
 .header-nav{
@@ -162,8 +163,9 @@ img {
     font-size: 56px;
     line-height:1.07;
     font-weight: 700;
-    text-align: center;
     letter-spacing: 0.02em;
+    padding-bottom: 48px;
+    text-align: center;
     max-width: 496px;
 }
 
